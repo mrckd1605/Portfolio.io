@@ -64,10 +64,11 @@ circles.forEach(elem=>{
 
 })
 
-
-
-
 });
 
 
+function toggleMenu() {
+    const navlist = document.querySelector('.navlist');
+    navlist.classList.toggle('show');
+}
 
